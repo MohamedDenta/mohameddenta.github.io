@@ -9,73 +9,68 @@
   <style>
     * {
       font-family: "Open Sans", sans-serif;
+      margin: 0;
+      padding: 0;
     }
 
     body {
-      margin-left: 50px;
-      margin-right: 50px;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
     }
 
     .header {
       text-align: center;
-      border-bottom: 1px solid #999;
-      margin: 0;
-    }
-
-    .header h3 {
-      color: #666;
-      line-height: 13px;
+      padding: 20px;
+      background-color: #ddd;
+      color: #000;
     }
 
     .content {
-      padding-left: 10px;
+      max-width: 950px;
+      margin: auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
     }
 
-    .content div {
+    h2 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      color: #555;
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      color: #777;
+      font-size: 16px;
+      line-height: 1.5;
       margin-bottom: 20px;
     }
 
-    .list li {
-      list-style: circle;
+    .list {
+      list-style: disc;
+      padding-left: 20px;
     }
 
-    /* .inline {
-        display: flex;
-      } */
-    .inline li {
+    .inline {
       display: inline;
-      padding: 5px 10px;
-      /* color: #2196f3; */
-
-      line-height: 45px;
-    }
-
-    .inline li::after {
-      content: ",";
-    }
-
-    .content h2 {
-      color: #000;
-      font-weight: bolder;
-    }
-
-    .work {
-      /* margin-left: 5px; */
-      text-decoration: underline;
+      margin-right: 10px;
     }
 
     .links a {
-      font-size: large;
-    }
-
-    a {
-      text-decoration: underline;
       color: #2196f3;
+      text-decoration: none;
     }
 
-    * {
-      margin-top: 10px;
-      margin-bottom: 10px;
+    .links a:hover {
+      text-decoration: underline;
     }
   </style>
   <title>Mohamed Abdulfattah</title>
@@ -99,115 +94,139 @@
   <div class="content">
     <h2>Professional Summary:</h2>
     <p>
-      I am a Backend Developer, I am frameworks and technology independent, I keep my skills updated and learning
-      Modern technologies, I am a general software engineer with experience in backend development
-      applications in various languages and technologies.
+      As a versatile Backend Developer, I possess the unique ability to work across various frameworks and technologies,
+      remaining independent and adaptable. My unwavering commitment to staying current with modern technologies
+      underscores my dedication to continuous improvement. I bring to the table a wealth of experience in backend
+      development across diverse languages and technologies, demonstrating my prowess as a dynamic software engineer.
     </p>
     <h2>Work Experience:</h2>
     <div>
       <ul class="list">
         <li>
-          <b>Backend Developer</b> 2021-November to Current at EBE
+          <b>Backend Developer</b> | November 2021 to Current | EBE
           <p>
-            Duties:
+            Responsibilities:
           <ol>
-            <li>Write micro-services using golang</li>
-            <li>Design database</li>
-            <li>deploy using docker</li>
-            <li>write rest api and grpc endpoints</li>
+            <li>Developing microservices using Golang</li>
+            <li>Designing databases</li>
+            <li>Deployment using Docker</li>
+            <li>Creating REST API and gRPC endpoints</li>
           </ol>
           </p>
-
         </li>
         <li>
-          <b>Blockchain Developer</b> 2020-October to 2021-October at Virtual Lap
+          <b>Blockchain Developer</b> | October 2020 to October 2021 | Virtual Lap
           <p>
-            Duties:
+            Responsibilities:
           <ol>
-            <li>Write Daap Applications and deploy them on blockchain</li>
-            <li>Write Python web service to integrate front with smart contracts</li>
-            <li>Write Python web service to integrate with crypto data driven apis</li>
-            <li>Setup blockchain nodes on clouds like (AWS)</li>
+            <li>Writing Daap applications and deploying them on the blockchain</li>
+            <li>Developing Python web services to integrate the frontend with smart contracts</li>
+            <li>Creating Python web services to integrate with crypto data-driven APIs</li>
+            <li>Setting up blockchain nodes on cloud platforms like AWS</li>
           </ol>
           </p>
-
         </li>
         <li>
-          <b>Golang Developer</b> 2019-April to 2020-March at Inovatian
+          <b>Golang Developer</b> | April 2019 to March 2020 | Inovatian
           <p>
-            Duties:
+            Responsibilities:
           <ol>
-            <li>Web services</li>
-            <li>Design Database</li>
-            <li>Implement blockchain algorithms</li>
-            <li>File system handling using Go</li>
+            <li>Developing web services</li>
+            <li>Designing databases</li>
+            <li>Implementing blockchain algorithms</li>
+            <li>Handling file systems using Go</li>
           </ol>
           </p>
         </li>
       </ul>
     </div>
-    <h2>Projects</h2>
-    <h3 class="work">File Storage</h3>
-    <p>
-      An app like Google drive is used to store files but in a destributed way in helping of Blockchain
-    </p>
-    <h3>Technology used:</h3>
-    <ul class="list inline">
-      <li>Golang</li>
-      <li>Leveldb</li>
-      <li>Blockchain</li>
-    </ul>
-    <!-- <div class="links">
-      Not provide
-    </div> -->
 
-    <h3 class="work">Icapeg</h3>
-    <p>
-      ICAP stands for Internet Content Adaptation Protocol. If a content (for example: file) you've requested over the
-      internet to download or whatever, needs adaptation(some kind of modification or analysis), the proxy server sends
-      the content to the ICAP server for adaptation and after performing the required tasks on the content, the ICAP
-      server sends it back to the proxy server so that it may return the adapted content back to the destination. This
-      can occur both during request and response.
-    </p>
-    <h3>Technology I used:</h3>
-    <ul class="list inline">
-      <li>Go</li>
-    </ul>
-    <div class="links">
-      <a href="https://github.com/MohamedDenta/icapeg">Source code</a>
+    <h2>Projects</h2>
+    <div>
+      <!-- Wakty Payment Company project -->
+      <h3 class="work"><span style="font-weight: bold;">&#9755; Wakty Payment
+          Company</span></h3>
+      <p>
+        Played a pivotal role in crafting solutions for Wakty Payment Company, optimizing financial transactions and
+        services.
+      </p>
+      <h3>Technologies and Platforms:</h3>
+      <ul class="list inline">
+        <li>Golang</li>
+        <li>Vue.js</li>
+        <li>MySQL</li>
+        <li>ELK Stack (Elasticsearch, Logstash, Kibana)</li>
+        <li>Redis</li>
+      </ul>
+      <div class="links">
+        <a href="http://wakty.com">Visit the website</a>
+      </div>
+
+      <!-- File Storage project -->
+      <h3 class="work"><span style="font-weight: bold;">&#9755; File Storage</span></h3>
+      <p>
+        Developed a decentralized file storage application, leveraging the power of Blockchain technology.
+      </p>
+      <h3>Technologies used:</h3>
+      <ul class="list inline">
+        <li>Golang</li>
+        <li>Leveldb</li>
+        <li>Blockchain</li>
+      </ul>
+
+      <!-- Icapeg project -->
+      <h3 class="work"><span style="font-weight: bold;">&#9755; Icapeg</span></h3>
+      <p>
+        Designed and implemented the Internet Content Adaptation Protocol (ICAP) for content modification and analysis
+        during
+        internet transactions.
+      </p>
+      <h3>Technologies used:</h3>
+      <ul class="list inline">
+        <li>Go</li>
+      </ul>
+      <div class="links">
+        <a href="https://github.com/MohamedDenta/icapeg">Source code</a>
+      </div>
     </div>
 
 
-    <h3 class="work">proficiency SKills</h3>
-    <!-- <h5>Skill Level: Professional</h5> -->
-    <ul class="list inline">
-      <li>Golang</li>
-      <li>Leveldb</li>
-      <li>Postgresql</li>
-      <li>MySql</li>
-      <li>Socket Programming</li>
-      <li>Blockchain</li>
-      <li>Docker</li>
-      <li>Linux</li>
-      <li>AWS</li>
-      <li>Algorithms</li>
-      <li>Data Structure</li>
-      <li>Nginx</li>
-
+    <h2>Proficiency Skills:</h2>
+    <ul class="list">
+      <li><strong>Golang</strong></li>
+      <li><strong>Leveldb</strong></li>
+      <li><strong>PostgreSQL</strong></li>
+      <li><strong>MySQL</strong></li>
+      <li><strong>Socket Programming</strong></li>
+      <li><strong>Blockchain</strong></li>
+      <li><strong>Docker</strong></li>
+      <li><strong>Linux</strong></li>
+      <li><strong>AWS</strong></li>
+      <li><strong>ELK Stack (Elasticsearch, Logstash, Kibana)</strong></li>
+      <li><strong>Microservices</strong></li>
+      <li><strong>Redis</strong></li>
+      <li><strong>gRPC</strong></li>
+      <li><strong>Algorithms</strong></li>
+      <li><strong>Data Structures</strong></li>
+      <li><strong>Nginx</strong></li>
     </ul>
+
     <h3 class="work">Education:</h3>
-    <p>Faculty of Computer and information , Assiut university 2018</p>
-    <h3 class="work">Languages</h3>
+    <p>
+      Completed Bachelor's Degree in Computer and Information Science from Assiut University in 2018.
+    </p>
+
+    <h3 class="work">Languages:</h3>
     <ul class="list inline">
       <li>English: Intermediate</li>
     </ul>
-    <h3 class="work">Personal Information</h3>
-    <!-- <h5>Skill Level: Professional</h5> -->
-    <ul class="list">
-      <li>Date of birth : 27/07/1996</li>
-      <li>Military Status : Exempted</li>
 
+    <h3 class="work">Personal Information:</h3>
+    <ul class="list">
+      <li>Date of Birth: 27th July 1996</li>
+      <li>Military Status: Exempted</li>
     </ul>
+
   </div>
 </body>
 
