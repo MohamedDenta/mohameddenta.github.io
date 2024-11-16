@@ -55,11 +55,23 @@
       margin-bottom: 20px;
     }
 
-    .list {
-      list-style: disc;
+    .list-grid {
+      /* list-style: disc; */
       padding-left: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      list-style: none;
+      padding: 0;
     }
-
+    .list-grid li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  /* border: 1px solid #ddd; */
+  /* border-radius: 5px; */
+  text-align: center;
+  font-size: 14px;
+}
     .inline {
       display: inline;
       margin-right: 10px;
@@ -81,16 +93,16 @@
   <div class="header">
     <h2>Mohamed Abdulfattah</h2>
     <h3>Senior Golang Developer</h3>
-    <h4>Phone: <a href="tel:+201093846484" >+201093846484</a></h4>
+    <h4>Phone: <a href="tel:+201093846484">+201093846484</a></h4>
     <h4>
       Email:
-      <a href="mailto:mohamed.abdulfattah1441@gmail.com" >mohamed.abdulfattah1441@gmail.com</a>
+      <a href="mailto:mohamed.abdulfattah1441@gmail.com">mohamed.abdulfattah1441@gmail.com</a>
     </h4>
     <h4>
       LinkedIn:
-      <a href="https://www.linkedin.com/in/mohamedabdelfatah" >https://www.linkedin.com/in/mohamedabdelfatah</a>
+      <a href="https://www.linkedin.com/in/mohamedabdelfatah">https://www.linkedin.com/in/mohamedabdelfatah</a>
     </h4>
-    <h4>Github: <a href="https://github.com/MohamedDenta" >https://github.com/MohamedDenta</a></h4>
+    <h4>Github: <a href="https://github.com/MohamedDenta">https://github.com/MohamedDenta</a></h4>
   </div>
   <div class="content">
     <h2>Professional Summary:</h2>
@@ -232,30 +244,11 @@
         deliver a reliable and secure file storage solution.
       </p>
 
-      <!-- Icapeg -->
-      <h3 class="work"><span style="font-weight: bold;">&#9755; Icapeg</span></h3>
-      <p>
-        Designed and implemented the Internet Content Adaptation Protocol (ICAP) for content modification and analysis
-        during internet transactions.
-      </p>
-      <h3>Technologies used:</h3>
-      <ul class="list inline">
-        <li>Go</li>
-      </ul>
-      <div class="links">
-        <a href="https://github.com/MohamedDenta/icapeg" style="color: #007bff;">GitHub Repository</a>
-      </div>
-      <p>
-        <strong>Description:</strong> Developed an ICAP server using Go programming language to intercept and modify
-        HTTP traffic for content filtering and security purposes. Implemented content analysis and transformation
-        features to scan for malware, enforce access policies, and optimize web content delivery. Integrated with
-        existing proxy servers and web filtering solutions to enhance internet security and performance.
-      </p>
     </div>
 
 
     <h2>Proficiency Skills:</h2>
-    <ul class="list">
+    <ul class="list-grid">
       <li><strong>Golang</strong></li>
       <li><strong>Leveldb</strong></li>
       <li><strong>PostgreSQL</strong></li>
@@ -273,6 +266,7 @@
       <li><strong>Algorithms</strong></li>
       <li><strong>Data Structures</strong></li>
       <li><strong>Nginx</strong></li>
+      <li><strong>SOAP</strong></li>
     </ul>
 
 
