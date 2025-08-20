@@ -4,291 +4,225 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <title>Mohamed Abdulfattah - Senior Golang Developer</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet" />
   <style>
     * {
       font-family: "Open Sans", sans-serif;
       margin: 0;
       padding: 0;
-      line-height: 1.5;
-      /* Adjust line height as needed */
+      box-sizing: border-box;
     }
-
 
     body {
-      background-color: #fff;
-      margin: 0;
-      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+      font-size: 15px;
     }
 
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Header */
     .header {
       text-align: center;
-      padding: 20px;
-      background-color: #fff;
-      color: #000;
+      margin-bottom: 30px;
     }
 
-    .content {
-      max-width: 100%;
-      margin: auto;
-      padding: 20px;
-      background-color: #fff;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-      border-radius: 5px;
-      color: #333;
+    .header h1 {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 5px;
     }
 
-    h2 {
-      font-size: 24px;
+    .header h2 {
+      font-size: 18px;
+      color: #555;
       margin-bottom: 10px;
     }
 
-    h3 {
-      font-size: 18px;
-      margin-bottom: 8px;
-    }
-
-    p {
-      font-size: 16px;
-      line-height: 1.5;
-      margin-bottom: 20px;
-    }
-
-    .list-grid {
-      /* list-style: disc; */
-      padding-left: 20px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      gap: 10px;
-      list-style: none;
-      padding: 0;
-    }
-    .list-grid li {
-  background-color: #f9f9f9;
-  padding: 10px;
-  /* border: 1px solid #ddd; */
-  /* border-radius: 5px; */
-  text-align: center;
-  font-size: 14px;
-}
-    .inline {
-      display: inline;
-      margin-right: 10px;
-    }
-
-    .links a {
+    .header p a {
       color: #007bff;
       text-decoration: none;
     }
 
-    .links a:hover {
+    .header p a:hover {
       text-decoration: underline;
     }
+
+    /* Section Titles */
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+      margin: 25px 0 15px 0;
+    }
+
+    /* Lists */
+    ul {
+      margin: 10px 0 20px 20px;
+    }
+
+    ul li {
+      margin-bottom: 6px;
+    }
+
+    /* Skills Grid */
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .skill {
+      background: #eef4ff;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    /* Subsections */
+    .job-title {
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    .job-meta {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
   </style>
-  <title>Mohamed Abdulfattah</title>
 </head>
 
 <body>
-  <div class="header">
-    <h2>Mohamed Abdulfattah</h2>
-    <h3>Senior Golang Developer</h3>
-    <h4>Phone: <a href="tel:+201093846484">+201093846484</a></h4>
-    <h4>
-      Email:
-      <a href="mailto:mohamed.abdulfattah1441@gmail.com">mohamed.abdulfattah1441@gmail.com</a>
-    </h4>
-    <h4>
-      LinkedIn:
-      <a href="https://www.linkedin.com/in/mohamedabdelfatah">https://www.linkedin.com/in/mohamedabdelfatah</a>
-    </h4>
-    <h4>Github: <a href="https://github.com/MohamedDenta">https://github.com/MohamedDenta</a></h4>
-  </div>
-  <div class="content">
-    <h2>Professional Summary:</h2>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <h1>Mohamed Abdulfattah</h1>
+      <h2>Senior Golang Developer</h2>
+      <p>
+        📞 <a href="tel:+201093846484">+201093846484</a> |
+        📧 <a href="mailto:mohamed.abdulfattah1441@gmail.com">mohamed.abdulfattah1441@gmail.com</a> <br />
+        🔗 <a href="https://www.linkedin.com/in/mohamedabdelfatah">LinkedIn</a> |
+        💻 <a href="https://github.com/MohamedDenta">GitHub</a>
+      </p>
+    </div>
+
+    <!-- Summary -->
+    <h3>Professional Summary</h3>
     <p>
-      As a versatile Backend Developer with over 5 years of experience in Golang development, I am dedicated to
-      delivering high-quality software solutions that meet the needs of clients and end-users. My extensive experience
-      includes developing microservices, designing databases, and deploying applications using Docker. I excel in
-      creating RESTful APIs and gRPC endpoints, ensuring seamless communication between components in distributed
-      systems.
-    </p>
-    <p>
-      My career goal is to continue expanding my knowledge and expertise in software development, with a focus on
-      leveraging emerging technologies to solve complex problems and drive innovation. I am passionate about staying
-      up-to-date with industry trends and best practices, and I thrive in fast-paced, collaborative environments where I
-      can contribute my skills to impactful projects.
+      Backend Developer with 5+ years of experience in Golang and distributed systems.
+      Skilled in building scalable microservices, RESTful APIs, and gRPC endpoints.
+      Strong expertise in Docker, AWS, and financial applications. Passionate about leveraging
+      emerging technologies to solve complex problems and deliver reliable, high-performance solutions.
     </p>
 
-    <h2>Work Experience:</h2>
+    <!-- Experience -->
+    <h3>Work Experience</h3>
 
-    <h3>Senior Backend Developer | October 2024 to Current | Network International</h3>
-    <ul class="list">
-      <li>Leading the design and development of scalable microservices using Golang.</li>
-      <li>Integrated robust logging and monitoring solutions using ELK Stack, enhancing system observability.</li>
-      <li>Collaborating with cross-functional teams to deliver high-quality financial applications tailored for fintech
-        clients.</li>
+    <p class="job-title">Senior Backend Developer</p>
+    <p class="job-meta">Affinity | Apr 2025 – Present</p>
+    <ul>
+      <li>Designing and developing scalable microservices with Golang</li>
+      <li>Write GRPC Services</li>
+      <li>Write frontend side using React</li>
     </ul>
 
-    <h3>Senior Backend Developer | November 2021 to September 2024 | EBE</h3>
-    <ul class="list">
-      <li>Migrated legacy systems from PHP to Golang, improving system performance and maintainability.</li>
-      <li>Designed a high-availability database system </li>
+    <p class="job-title">Senior Backend Developer</p>
+    <p class="job-meta">Network International | Oct 2024 – Mar 2025</p>
+    <ul>
+      <li>Led the design and development of scalable microservices using Golang.</li>
+      <li>Integrated ELK Stack for monitoring, improving system observability.</li>
+      <li>Collaborated with cross-functional teams to deliver fintech applications.</li>
     </ul>
 
-    <h3>Blockchain Developer | October 2020 to October 2021 | Virtual Lap</h3>
-    <ul class="list">
-      <li>Developed decentralized applications (DApps) integrated with Python web services for blockchain networks.</li>
-      <li>Deployed and managed blockchain nodes on AWS, ensuring secure transaction handling.</li>
+    <p class="job-title">Senior Backend Developer</p>
+    <p class="job-meta">EBE | Nov 2021 – Sep 2024</p>
+    <ul>
+      <li>Migrated legacy systems from PHP to Golang, boosting performance.</li>
+      <li>Designed a high-availability database system to improve reliability.</li>
+    </ul>
+
+    <p class="job-title">Blockchain Developer</p>
+    <p class="job-meta">Virtual Lap | Oct 2020 – Oct 2021</p>
+    <ul>
+      <li>Developed decentralized applications (DApps) integrated with Solidity - Python services.</li>
+      <li>Deployed blockchain nodes on AWS ensuring secure transaction handling.</li>
       <li>Created APIs to interact with cryptocurrency data and external services.</li>
     </ul>
 
-    <h3>Golang Developer | April 2019 to March 2020 | Inovatian</h3>
-    <ul class="list">
-      <li>Designed and developed blockchain-based authentication mechanisms, enhancing security in financial
-        applications.</li>
-      <li>Built RESTful APIs and optimized databases to support high-volume transactions.</li>
-      <li>Implemented distributed file storage solutions using Go libraries and LevelDB.</li>
+    <p class="job-title">Golang Developer</p>
+    <p class="job-meta">Inovatian | Apr 2019 – Mar 2020</p>
+    <ul>
+      <li>Built RESTful APIs and optimized databases for high-volume transactions.</li>
+      <li>Developed blockchain-based authentication for financial applications.</li>
+      <li>Implemented distributed file storage solutions with Go and LevelDB.</li>
     </ul>
 
-    <h3>Common Responsibilities Across Roles:</h3>
-    <ul class="list">
-      <li>Developed scalable microservices using Golang.</li>
-      <li>Designed and maintained efficient databases to support diverse application requirements.</li>
-      <li>Created RESTful APIs and gRPC endpoints for seamless communication in distributed systems.</li>
-      <li>Deployed applications using Docker, ensuring performance optimization and reliability.</li>
-    </ul>
 
-    <h2>Projects:</h2>
-    <div>
-      <!-- N-Genius Payment Platform -->
-      <h3 class="work"><span style="font-weight: bold;">&#9755; N-Genius Payment Platform</span></h3>
-      <p>
-        Developed and enhanced multiple features for the N-Genius Payment Platform, ensuring seamless payment processing
-        and robust system performance.
-      </p>
-      <h3>Technologies and Platforms:</h3>
-      <ul class="list inline">
-        <li>Golang</li>
-        <li>MongoDB</li>
-        <li>MySQL</li>
-        <i>Grpc</i>
-      </ul>
-      <p>
-        <strong>Description:</strong> Designed and maintained microservices to handle high-volume transactions for the
-        N-Genius Payment Platform. Enhanced payment gateway integrations and implemented secure, scalable solutions for
-        processing payments across various channels. Developed monitoring and troubleshooting tools using the ELK Stack
-        to ensure system reliability and performance.
-      </p>
+    <!-- Projects -->
+    <h3>Key Projects</h3>
+    <p><strong>N-Genius Payment Platform:</strong> Built microservices and integrated payment gateways for high-volume
+      fintech transactions using Golang, MySQL, MongoDB, and gRPC.</p>
+    <p><strong>Wakty Payment Company:</strong> Developed payment processing platform with Golang & Vue.js, integrated
+      multiple banks, and implemented ELK Stack for monitoring.</p>
+    <p><strong>TMS Script Tool:</strong> Automated terminal configuration in TMS with Golang + Vue.js, reducing manual
+      work and ensuring consistency.</p>
+    <p><strong>INO Storage:</strong> Decentralized storage system with Golang, LevelDB, and blockchain for secure
+      distributed file management.</p>
 
-      <!-- Wakty Payment Company -->
-      <h3 class="work"><span style="font-weight: bold;">&#9755; Wakty Payment Company</span></h3>
-      <p>
-        Played a pivotal role in crafting solutions for Wakty Payment Company, optimizing financial transactions and
-        services.
-      </p>
-      <h3>Technologies and Platforms:</h3>
-      <ul class="list inline">
-        <li>Golang</li>
-        <li>Vue.js</li>
-        <li>MySQL</li>
-        <li>ELK Stack (Elasticsearch, Logstash, Kibana)</li>
-        <li>Redis</li>
-        <i>Grpc,Soap</i>
-      </ul>
-      <p>
-        <strong>Description:</strong> Developed a comprehensive payment processing platform using Golang for backend
-        services and Vue.js for the frontend interface. Integrated with multiple financial institutions and payment
-        gateways to facilitate secure and efficient transactions. Implemented logging and monitoring solutions using the
-        ELK Stack for real-time analytics and troubleshooting.
-      </p>
-
-      <!-- TMS Script Tool -->
-      <h3 class="work"><span style="font-weight: bold;">&#9755; TMS Script Tool</span></h3>
-      <p>
-        Developed a tool to automate terminal configuration processes within the TMS (Terminal Management System),
-        streamlining operational workflows.
-      </p>
-      <h3>Technologies and Platforms:</h3>
-      <ul class="list inline">
-        <li>Golang</li>
-        <li>MySQL</li>
-        <li>Vue.js</li>
-      </ul>
-      <p>
-        <strong>Description:</strong> Designed and implemented the TMS Script Tool to automate the addition, editing,
-        and deletion of terminal configurations within the Terminal Management System. This tool significantly reduced
-        manual intervention, improved system efficiency, and ensured data consistency across all terminal
-        configurations. Integrated with MySQL for database management and utilized Vue.js for user-friendly front-end
-        development.
-      </p>
-
-      <!-- INO Storage -->
-      <h3 class="work"><span style="font-weight: bold;">&#9755; INO Storage</span></h3>
-      <p>
-        Developed a decentralized file storage application, leveraging the power of Blockchain technology.
-      </p>
-      <h3>Technologies used:</h3>
-      <ul class="list inline">
-        <li>Golang</li>
-        <li>Leveldb</li>
-        <li>Blockchain</li>
-      </ul>
-      <div class="links">
-        <a href="https://www.inovatian.com/product/name/InoChain" style="color: #007bff;">Visit Website</a>
-      </div>
-      <p>
-        <strong>Description:</strong> Created a distributed file storage system using Golang and Leveldb for data
-        storage. Utilized blockchain technology for data encryption, integrity verification, and decentralized access
-        control. Overcame challenges related to data consistency, network latency, and security vulnerabilities to
-        deliver a reliable and secure file storage solution.
-      </p>
-
+    <!-- Skills -->
+    <h3>Skills</h3>
+    <div class="skills">
+      <span class="skill">Golang</span>
+      <span class="skill">PostgreSQL</span>
+      <span class="skill">MySQL</span>
+      <span class="skill">MongoDB</span>
+      <span class="skill">LevelDB</span>
+      <span class="skill">Docker</span>
+      <span class="skill">AWS</span>
+      <span class="skill">Linux</span>
+      <span class="skill">Redis</span>
+      <span class="skill">Nginx</span>
+      <span class="skill">ELK Stack</span>
+      <span class="skill">Microservices</span>
+      <span class="skill">gRPC</span>
+      <span class="skill">SOAP</span>
+      <span class="skill">Blockchain</span>
+      <span class="skill">Algorithms & Data Structures</span>
     </div>
 
-
-    <h2>Proficiency Skills:</h2>
-    <ul class="list-grid">
-      <li><strong>Golang</strong></li>
-      <li><strong>Leveldb</strong></li>
-      <li><strong>PostgreSQL</strong></li>
-      <li><strong>MySQL</strong></li>
-      <li><strong>MongoDB</strong></li>
-      <li><strong>Socket Programming</strong></li>
-      <li><strong>Blockchain</strong></li>
-      <li><strong>Docker</strong></li>
-      <li><strong>Linux</strong></li>
-      <li><strong>AWS</strong></li>
-      <li><strong>ELK Stack (Elasticsearch, Logstash, Kibana)</strong></li>
-      <li><strong>Microservices</strong></li>
-      <li><strong>Redis</strong></li>
-      <li><strong>gRPC</strong></li>
-      <li><strong>Algorithms</strong></li>
-      <li><strong>Data Structures</strong></li>
-      <li><strong>Nginx</strong></li>
-      <li><strong>SOAP</strong></li>
-    </ul>
-
-
-    <h3>Education:</h3>
+    <!-- Education -->
+    <h3>Education</h3>
     <p>
-      Bachelor's Degree in Computer and Information Science
-      <br />
-      Assiut University, Egypt
-      <br />
-      Graduated: 2018
+      B.Sc. in Computer and Information Science <br />
+      Assiut University, Egypt — Graduated 2018
     </p>
 
-    <h3>Languages:</h3>
-    <ul class="list inline">
-      <li>English: Intermediate</li>
-    </ul>
+    <!-- Languages -->
+    <h3>Languages</h3>
+    <p>English: Intermediate (actively improving)</p>
 
-    <h3>Personal Information:</h3>
-    <ul class="list">
-      <li>Date of Birth: 27th July 1996</li>
-      <li>Military Status: Exempted</li>
-    </ul>
+    <!-- Personal Info -->
+    <h3>Personal Information</h3>
+    <p>
+      Date of Birth: 27 July 1996 <br />
+      Military Status: Exempted
+    </p>
   </div>
 </body>
 
